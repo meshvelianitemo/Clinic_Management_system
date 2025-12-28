@@ -1,6 +1,9 @@
 CREATE DATABASE ClinicApp;
 GO
 
+USE ClinicApp;
+GO
+
 CREATE TABLE Users
 (
 	UserId INT IDENTITY(1000,1), --PRIMARY KEY
